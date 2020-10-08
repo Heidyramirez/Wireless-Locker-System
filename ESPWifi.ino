@@ -31,7 +31,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
       digitalWrite(Relay2, LOW);
       delay(2000);
       digitalWrite(Relay2, HIGH);
-    }    
+    }   
   }
   Serial.println();
 }
